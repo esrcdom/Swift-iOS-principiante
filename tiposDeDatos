@@ -1,0 +1,39 @@
+import UIKit
+
+// String (cadena de texto)
+
+let myString = "Hola patético humano"
+let myString2 = "Bienvenidos a Monster Dev"
+let myString3 = myString + " " + myString2
+print(myString3)
+
+// Int (números enteros)
+
+let myInt = 1
+let myInt2 = 2
+print(myInt + myInt2)
+
+// Double (números decimales)
+
+let myDouble = 1.5
+let myDouble2 = 2.5
+let myDouble3 = 1.0
+print(myDouble + myDouble2 + myDouble3)
+
+// Float (representa la misma función que un double pero los datos son más cortos)
+
+let myFloat: Float = 1.5 //hay que indicar que el tipo de dato es float (:Float) por defecto swift entiende cuando hay decimales que el tipo de dato es 'Double'
+let myFloat2: Float = 2.6
+print(myFloat + myFloat2)
+
+// Boolean
+
+let myBool = true
+let myBool2 = false
+
+// print(myBool + myBool2)
+print(myBool && myBool2)
+print(myBool == myBool2)
+
+
+
